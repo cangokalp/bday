@@ -312,7 +312,7 @@
 
 .flying-emojis {
   font-size: 2.5rem;
-  animation: slide 5s linear infinite alternate;
+  animation: slide 10s linear infinite alternate;
 }
 
 @keyframes slide {
@@ -323,6 +323,7 @@
     transform: translateX(100vw) rotate(360deg);
   }
 }
+
 
 .blurring {
   font-size: 2rem;
@@ -343,12 +344,12 @@
   background-color: #E8E8E8;
 }
 
-/* #footer { */
-  /* background-color: whitesmoke; */
-  /* display: flex;
+#footer { 
+  background-color: whitesmoke;
+  /* /* display: flex; */
   justify-content: center;
-  align-items: center; */
-/* } */
+  align-items: center; 
+}
 
 /* footer {
   position: relative;
